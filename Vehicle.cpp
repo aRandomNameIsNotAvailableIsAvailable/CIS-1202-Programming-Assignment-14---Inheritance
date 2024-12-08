@@ -2,6 +2,10 @@
 #include <iostream>
 using namespace std;
 
+// Constructor
+Vehicle::Vehicle(string manufacturer, int yearBuilt)
+{ }
+
 // Getters and Setters
 void Vehicle::setManufacturer(string manufacturer) {
     this->manufacturer = manufacturer;
