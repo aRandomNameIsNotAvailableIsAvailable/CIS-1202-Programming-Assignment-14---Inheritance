@@ -13,6 +13,7 @@ Project Description: Develop a base and derived classes to represent different t
 #include<string>
 #include<vector>
 #include "Vehicle.h"
+#include "Car.h"
 
 
 
@@ -72,7 +73,7 @@ cin >> manufacturer;
 
 cout << "Car year: ";
 cin >> yearBuilt;
-cout << "Car year: ";
+cout << "Number of doors: ";
 cin >> numberOfDoors;
 
 Car c(manufacturer, yearBuilt, numberOfDoors);
