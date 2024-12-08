@@ -45,6 +45,9 @@ cout << "hello again";
 
 cout << endl;
 
+int yearBuilt;
+string manufacturer;
+
 Vehicle v(manufacturer, yearBuilt);
 cout << "\nVehicle info test" << endl;
 v.displayInfo();
