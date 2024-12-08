@@ -7,7 +7,7 @@
 // namespace
 using namespace std;
 
-// creaes vehicle 
+// creates vehicle 
 class Vehicle {
 protected:
     string manufacturer;

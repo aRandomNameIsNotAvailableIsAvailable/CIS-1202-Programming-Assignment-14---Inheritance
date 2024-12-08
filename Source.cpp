@@ -49,7 +49,7 @@ cout << endl;
 int yearBuilt;
 string manufacturer;
 
-
+// vehicle class
 
 cout << "Vehicle manufacturer: ";
 cin >> manufacturer;
@@ -63,7 +63,22 @@ cout << "\nVehicle info test" << endl;
 v.displayInfo();
 cout << endl;
 
+// Car class
+int numberOfDoors;
 
+cout << "Car info test: ";
+cout << "car manufacturer: ";
+cin >> manufacturer;
+
+cout << "Car year: ";
+cin >> yearBuilt;
+cout << "Car year: ";
+cin >> numberOfDoors;
+
+Car c(manufacturer, yearBuilt, numberOfDoors);
+cout << "\nCar Information:" << endl;
+c.displayInfo();
+cout << endl;
 
 	//											+++END MAIN+++
 
