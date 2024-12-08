@@ -15,7 +15,7 @@ Filename: Source.cpp
 #include<vector>
 #include "Vehicle.h"
 #include "Car.h"
-#include "Truck.h>
+#include "Truck.h"
 
 // namespace
 using namespace std;
