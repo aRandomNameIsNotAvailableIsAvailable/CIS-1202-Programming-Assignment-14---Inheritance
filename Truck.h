@@ -3,10 +3,10 @@
 #ifndef TRUCK_H
 #define TRUCK_H
 
+// libraries
 #include "Vehicle.h"
 
 // Class truck
-
 class Truck : public Vehicle {
 private:
     double towingCapacity;

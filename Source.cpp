@@ -7,12 +7,8 @@ Filename: Source.cpp
 */
 
 // libraries
-#include<cmath>
-#include<fstream>
-#include<iomanip>
 #include<iostream>
 #include<string>
-#include<vector>
 #include "Vehicle.h"
 #include "Car.h"
 #include "Truck.h"
@@ -20,72 +16,69 @@ Filename: Source.cpp
 // namespace
 using namespace std;
 
-	//											+++Start Main+++
+//											+++Start Main+++
 
 int main() {
 
-	// declare variables CLEAN THIS UP WHEN FORMATTING OUTPUT
+// Declare variables
 
-	int yearBuilt;
-	string manufacturer;
+int yearBuilt;
+int numberOfDoors;
+double towingCapacity;
+string manufacturer;
 
 cout << "Vehicle Info Program\n";
-
 cout << endl;
-
-
 
 // Vehicle class
-
-cout << "Vehicle manufacturer: ";
-cin >> manufacturer;
-
-cout << "Vehicle year: ";
+cout << "Vehicle:\n";
+cout << "Enter the manufacturer: ";
+getline(cin, manufacturer);
+cout << "Enter the year built: ";
 cin >> yearBuilt;
+cin.ignore();
 
-Vehicle v(manufacturer, yearBuilt);
-cout << "\nVehicle info test: \n" << endl;
-v.displayInfo();
-cout << endl;
+	Vehicle v(manufacturer, yearBuilt); // call vehicle
+	cout << "Vehicle information: " << endl;
+	v.displayInfo();
+	cout << endl;
 
 // Car class
-int numberOfDoors;
-
-cout << "Car info test: \n";
-cout << "car manufacturer: ";
-cin >> manufacturer;
-
-cout << "Car year: ";
+cout << "Car: \n";
+cout << "Enter the manufacturer: ";
+getline(cin, manufacturer);
+cout << "Enter the year built: ";
 cin >> yearBuilt;
-cout << "Number of doors: ";
+cin.ignore();
+cout << "Enter the number of doors: ";
 cin >> numberOfDoors;
+cin.ignore();
 
-Car c(manufacturer, yearBuilt, numberOfDoors);
-cout << "\nCar Information:" << endl;
-c.displayInfo();
-cout << endl;
+	Car c(manufacturer, yearBuilt, numberOfDoors); // call car
+	cout << "Car Information:\n";
+	c.displayInfo();
+	cout << endl;
 
 // Truck class
-double towingCapacity;
-
-cout << "Truck info test: \n";
-cout << "truck manufacturer: ";
-cin >> manufacturer;
-
-cout << "truck year: ";
+cout << "Truck: \n";
+cout << "Enter the manufacturer: ";
+getline(cin, manufacturer);
+cout << "Enter the year built: ";
 cin >> yearBuilt;
-cout << "towing capactiy: ";
+cin.ignore();
+cout << "Enter the towing capacity: ";
 cin >> towingCapacity;
+cin.ignore();
 
-Truck t(manufacturer, yearBuilt, towingCapacity);
-cout << "\nTruck Information:" << endl;
-t.displayInfo();
-cout << endl;
+	Truck t(manufacturer, yearBuilt, towingCapacity); // call truck
+	cout << "Truck Information:\n";
+	t.displayInfo();
+	cout << endl;
 
-	//											+++END MAIN+++
+//											+++END MAIN+++
 
-	cout << endl << endl;
-	system("pause");
-	return 0;
+cout << endl << endl;
+system("pause");
+return 0;
 
 }
