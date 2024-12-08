@@ -21,21 +21,6 @@ Project Description: Develop a base and derived classes to represent different t
 // namespace
 using namespace std;
 
-// function prototypes
-
-void emptyFunction();
-
-// classes
-
-class emptyClass {
-private:
-	int emptyPrivateNum_01;
-	string emptyPrivateString_01;
-public:
-	int emptyPublicNum_01;
-	string emptyPublicString_01;
-};
-
 	//											+++Start Main+++
 
 int main() {
@@ -43,7 +28,7 @@ int main() {
 	// declare variables
 
 
-cout << "hello again";
+cout << "Vehicle Info Program\n";
 
 cout << endl;
 
@@ -88,13 +73,3 @@ cout << endl;
 	return 0;
 
 }
-
-// function definitions
-
-void emptyFunction()
-{
-	
-}
-
-// class definitions
-

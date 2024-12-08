@@ -20,26 +20,3 @@ public:
 };
 
 #endif
-
-
-/*
-class Vehicle {
-protected:
-    string manufacturer;
-    int yearBuilt;
-
-public:
-    // Constructor
-    Vehicle(string manufacturer, int yearBuilt);
-
-    // Getters and Setters
-    void setManufacturer(string manufacturer);
-    string getManufacturer() const;
-
-    void setYearBuilt(int yearBuilt);
-    int getYearBuilt() const;
-
-    // Method to display vehicle information
-    virtual void displayInfo() const;
-};
-*/
