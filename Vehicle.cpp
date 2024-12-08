@@ -3,11 +3,11 @@
 using namespace std;
 
 // Getters and Setters
-void Vehicle:setManufacturer(string manufacturer) {
+void Vehicle::setManufacturer(string manufacturer) {
     this->manufacturer = manufacturer;
 }
 
-string Vehicle:getManufacturer() const {
+string Vehicle::getManufacturer() const {
     return manufacturer;
 }
 
