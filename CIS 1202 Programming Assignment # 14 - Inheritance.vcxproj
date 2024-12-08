@@ -135,7 +135,7 @@
   <ItemGroup>
     <ClInclude Include="Car.h" />
     <ClInclude Include="Truck.h" />
-    <ClInclude Include="Vehicld.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

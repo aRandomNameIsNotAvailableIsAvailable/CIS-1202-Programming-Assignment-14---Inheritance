@@ -12,6 +12,8 @@ Project Description: Develop a base and derived classes to represent different t
 #include<iostream>
 #include<string>
 #include<vector>
+#include "Vehicle.h"
+
 
 
 // namespace
@@ -41,6 +43,12 @@ int main() {
 
 cout << "hello again";
 
+cout << endl;
+
+Vehicle v(manufacturer, yearBuilt);
+cout << "\nVehicle info test" << endl;
+v.displayInfo();
+cout << endl;
 
 
 

@@ -18,7 +18,7 @@ public:
     Vehicle(string manufacturer, int yearBuilt);
 
     // Getters and Setters
-    void setManufacturur(string manufacturer);
+    void setManufacturer(string manufacturer);
     string getManufacturer() const;
     
     void setYearBuilt(int yearBuilt);
