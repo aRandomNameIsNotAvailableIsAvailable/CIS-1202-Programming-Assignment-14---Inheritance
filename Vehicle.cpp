@@ -3,8 +3,8 @@
 using namespace std;
 
 // Constructor
-Vehicle::Vehicle(string manufacturer, int yearBuilt)
-{ }
+Vehicle::Vehicle(string manufacturer, int yearBuilt) : manufacturer(manufacturer), yearBuilt(yearBuilt) {}
+
 
 // Getters and Setters
 void Vehicle::setManufacturer(string manufacturer) {
