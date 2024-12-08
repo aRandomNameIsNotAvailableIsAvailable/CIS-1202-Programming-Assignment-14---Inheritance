@@ -1,3 +1,5 @@
+// Filename: Source.cpp
+
 #ifndef VEHICLE_H
 #define VEHICLE_H
 
@@ -7,7 +9,7 @@
 // namespace
 using namespace std;
 
-// creates vehicle 
+// Class vehicle 
 class Vehicle {
 protected:
     string manufacturer;
