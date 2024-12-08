@@ -48,11 +48,19 @@ cout << endl;
 int yearBuilt;
 string manufacturer;
 
+
+
+cout << "Vehicle manufacturer: ";
+cin >> manufacturer;
+
+cout << "Vehicle year: ";
+cin >> yearBuilt;
+
+
 Vehicle v(manufacturer, yearBuilt);
 cout << "\nVehicle info test" << endl;
 v.displayInfo();
 cout << endl;
-
 
 
 
